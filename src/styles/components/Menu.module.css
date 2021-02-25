@@ -1,0 +1,35 @@
+.menuContainer {
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--white);
+
+    position: fixed;
+    z-index: 2;
+}
+
+.menuContainer img {
+    width: 70px;
+    margin-left: 100px;
+}
+
+.menuContainer ul{
+    display: flex;
+    list-style: none;
+}
+
+.menuContainer ul li{
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.menuContainer ul li a{
+    text-decoration: none;
+    color: var(--title);
+
+    font-weight: bold;
+}

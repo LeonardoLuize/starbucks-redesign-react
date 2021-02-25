@@ -1,0 +1,42 @@
+.bannerContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../public/img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+    display: flex;
+    align-items: center;
+}
+
+.textBox{
+    margin-left: 70px;
+}
+
+.textBox p{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    color: var(--white);
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.bannerButton{
+    margin-top: 30px;
+    border: 0;
+    background: var(--green);
+    color: var(--white);
+    padding: 15px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: background-color .3s;
+}
+
+.bannerButton:hover{
+    background: #095238;
+    
+}
