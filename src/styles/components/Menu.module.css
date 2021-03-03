@@ -1,3 +1,6 @@
+
+
+
 .menuContainer {
     width: 100%;
     padding: 10px;
@@ -10,6 +13,8 @@
 
     position: fixed;
     z-index: 2;
+
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
 }
 
 .menuContainer img {
@@ -29,7 +34,12 @@
 
 .menuContainer ul li a{
     text-decoration: none;
-    color: var(--title);
+    color: var(--green);
 
     font-weight: bold;
+    transition: color .3s;
+}
+
+.menuContainer ul li a:hover{
+    color: #00be7c;
 }

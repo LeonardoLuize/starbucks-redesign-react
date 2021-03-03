@@ -6,11 +6,11 @@ export function Menu(){
         <div className={styles.menuContainer}>
             <img src="img/starbucks.png" alt="logo"/>
 
-           {/*  <ul>
+            <ul>
                 <li><a href="#">Nosso Café</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Contato</a></li>
-            </ul> */}
+            </ul>
         </div>
     );
 }

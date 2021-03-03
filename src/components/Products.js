@@ -23,7 +23,6 @@ export function Products(){
 
                 setSwitchImg(false);
                 setTime(time - 1);
-                console.log(time)
 
             }, 1000)
         }else if(6 >= time && time > 0){
@@ -31,7 +30,6 @@ export function Products(){
 
                 setSwitchImg(true);
                 setTime(time - 1);
-                console.log(time)
 
             }, 1000)
 

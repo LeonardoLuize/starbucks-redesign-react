@@ -15,7 +15,7 @@
 }
 
 .textBox p{
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: bolder;
     color: var(--white);
     margin-bottom: 20px;
@@ -31,7 +31,7 @@
     background: var(--green);
     color: var(--white);
     padding: 15px 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     transition: background-color .3s;
 }
@@ -39,4 +39,29 @@
 .bannerButton:hover{
     background: #095238;
     
+}
+
+@media(min-width:425px){
+    .bannerButton{
+        font-size: 1.65rem;
+    }
+}
+
+
+@media(min-width: 768px){
+
+    .bannerButton{
+        font-size: 1.75rem;
+    }
+}
+
+@media(min-width: 1024px){
+
+    .textBox p{
+        font-size: 3.5rem;
+    }
+
+    .bannerButton{
+        font-size: 2rem;
+    }
 }
