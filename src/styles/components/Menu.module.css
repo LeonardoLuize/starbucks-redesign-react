@@ -19,7 +19,8 @@
 
 .menuContainer img {
     width: 70px;
-    margin-left: 100px;
+    margin-left: 60px;
+    cursor: pointer;
 }
 
 .menuContainer ul{

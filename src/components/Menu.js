@@ -1,14 +1,15 @@
 
 import styles from '../styles/components/Menu.module.css';
+import Link from 'next/link';
 
 export function Menu(){
     return(
         <div className={styles.menuContainer}>
-            <img src="img/starbucks.png" alt="logo"/>
+            <Link href="/"><img src="img/starbucks.png" alt="logo"/></Link>
 
             <ul>
-                <li><a href="#">Nosso Café</a></li>
-                <li><a href="#">Menu</a></li>
+                <li><Link href="/sobre">Sobre</Link></li>
+                <li><Link href="/menu">Menu</Link></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </div>

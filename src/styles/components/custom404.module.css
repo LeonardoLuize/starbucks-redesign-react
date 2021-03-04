@@ -1,0 +1,120 @@
+.container404{
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: var(--green);
+}
+
+.container404 section{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourOhFour{
+    color: #fcfcfc;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.container404 h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #eeeeee;
+}
+
+.img404{
+    width: 310px;
+    margin-top: 50px;
+}
+
+.container404 section button{
+    background: #44be94;
+    border-radius: 5px;
+    color: #fcfcfc;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 15px;
+
+}
+
+@media(min-width: 425px){
+
+
+    .img404{
+        width: 420px;
+    }
+
+}
+
+@media(min-width: 1024px){
+    .container404{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: left;
+    }
+
+    .container404 section{
+        display: block;
+    }
+
+    .container404 section:first-child{
+        margin-left: 50px;
+    }
+
+    .fourOhFour{
+        font-size: 1.7rem;
+    }
+
+    .container404 section h2{
+        font-size: 1.5rem;
+    }
+
+    .img404{
+        width: 600px;
+    }
+
+    .container404 section button img{
+        width: 30px;
+    }
+
+    .container404 section button{
+        transition: background-color .3s;
+    }
+        
+    .container404 section button:hover{
+        background-color: rgb(66, 180, 140);
+    }
+}
+
+@media(min-width: 1300px){
+
+    .fourOhFour{
+        font-size: 2.5rem;
+    }
+
+    .container404 section h2{
+        font-size: 2rem;
+    }
+
+    .img404{
+        width: 800px;
+    }
+
+    .container404 section button img{
+        width: 35px;
+    }
+}
