@@ -1,5 +1,6 @@
 
 import document from 'next/document';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import styles from '../styles/components/Products.module.css'
 
@@ -93,7 +94,7 @@ export function Products(){
                         <section>
                             <p>$0 delivery fee for Starbucks orders on Uber Eats.</p>
                             <p className={styles.productsP}>Get your favorite food and drinks delivered</p>
-                            <button>See Menu</button>
+                            <Link href="/menu"><button>See Menu</button></Link>
                         </section>
                     </div>
                 </section>

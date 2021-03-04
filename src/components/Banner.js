@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/components/Banner.module.css';
 
 export function Banner(){
@@ -6,7 +7,7 @@ export function Banner(){
             <div className={styles.textBox}>
                 <p>Smooth out your day,</p>
                 <p>everyday</p>
-                <button className={styles.bannerButton}>See Menu</button>
+                <Link href="/menu"><button className={styles.bannerButton}>See Menu</button></Link>
             </div>
         </div>
     );
